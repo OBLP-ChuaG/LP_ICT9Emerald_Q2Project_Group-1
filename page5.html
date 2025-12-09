@@ -1,16 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About the Group Member</title>
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About the Students</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Gill Sans MT", "Gill Sans", "Trebuchet MS", Calibri, sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: #f8f9fa;
+    }
+    h1, h2, h3, .nav-link {
+      font-weight: 600 !important;
+      letter-spacing: 0.8px;
+    }
+
+
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .navbar-nav .nav-link {
+      color: #12528A !important;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+
+
+    .page-header {
+      background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(students.gif) center/cover no-repeat;
+      color: white;
+      padding: 180px 0 100px;
+      text-align: center;
+    }
+    .page-header h1 {
+      font-size: 4.8rem;
+      font-weight: 700;
+    }
+    .page-header p {
+      font-size: 1.3rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+
+    .content-section {
+      padding: 100px 0;
+    }
+    .section-title {
+      font-size: 3.2rem;
+      color: #12528A;
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    .intro-text {
+      font-size: 1.25rem;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto 4rem;
+    }
+    .member-name {
+      font-size: 2rem;
+      color: #12528A;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 0.8rem;
+    }
+    .member-role {
+      font-size: 1.15rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+
+    footer {
+      background: #12528A;
+      color: #fff;
+      padding: 70px 0 30px;
+      font-size: 15px;
+    }
+    footer a { color: #fff; text-decoration: underline; }
+
+
+    @media (max-width: 768px) {
+      .page-header h1 { font-size: 3.5rem; }
+      .section-title { font-size: 2.8rem; }
+      .member-name { font-size: 1.8rem; }
+    }
+  </style>
+
+<head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+ <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="Header.webp" alt="OB Montessori Logo" height="50">
+      <a class="navbar-brand" href="index.html">
+        <img src="Header.webp" alt="OB Montessori Logo" height="70">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -18,7 +107,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto text-uppercase">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="page2.html">Courses offer</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="page2.html">Courses offer</a></li>
           <li class="nav-item"><a class="nav-link" href="page3.html">Contact us</a></li>
           <li class="nav-item"><a class="nav-link" href="page4.html">Enroll</a></li>
           <li class="nav-item"><a class="nav-link" href="page5.html">About the Students</a></li>
@@ -28,38 +117,91 @@
   </nav>
 
 
+  <header class="page-header">
+    <div class="container">
+      <h1>About the Students</h1>
+      <p>Page dedicated to the people who made this website.</p>
+    </div>
+  </header>
+
+ 
+  <section class="content-section bg-white">
+    <div class="container">
+
+      <h2 class="section-title">Who We Are</h2>
+      <p class="intro-text">
+        We are the first group (GROUP 1) in 9E of the ICT Project of QUARTER 2. Our plan and focus was to structure and create a website for our school, OB Montessori Center, not remotely similar but somehow the same. We tried to implement the same interactions and parts of the website without making it look exactly identical to it. We also followed the guidelines as a guide to help us with our website.
+      </p>
+
+      <div class="row text-center">
+
+    
+        <div class="col-lg-12 text-center mb-5">
+          <h3 class="member-name">Gabrielle Chua</h3>
+          <p class="member-role">The leader of the ICT Q2 Project. Overall designed the structure of the website and made the main page / home page of the website.</p>
+        </div>
+
+        <div class="row justify-content-center">
 
 
+          <div class="col-md-6 col-lg-4 mb-5">
+            <h3 class="member-name">Yza Santiago</h3>
+            <p class="member-role">Contributed to the making of the “Courses offer” page.</p>
+          </div>
 
 
+          <div class="col-md-6 col-lg-4 mb-5">
+            <h3 class="member-name">Kyle Dela Calzada</h3>
+            <p class="member-role">Contributed to the making of the “Contact Us” page.</p>
+          </div>
 
 
+          <div class="col-md-6 col-lg-4 mb-5">
+            <h3 class="member-name">Andrey Santos</h3>
+            <p class="member-role">Contributed to the making of the “Enroll” page.</p>
+          </div>
 
 
+          <div class="col-md-6 col-lg-4 mb-5">
+            <h3 class="member-name">Michael Barrameda</h3>
+            <p class="member-role">Contributed to the making of the “About the Students” page.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
 
 
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img src="OBMC+LOGO+2024-04.webp" alt="OBM Logo White" height="90" class="mb-3">
+          <p>© 2025 O.B. Montessori Center All Rights Reserved.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Location</h5>
+          <p class="mb-0">
+            Angeles City, Pampanga<br>
+            Fairview, Quezon City<br>
+            Greenhills, San Juan City<br>
+            B.F Homes, Las Piñas City<br>
+            Sta. Ana, Manila City
+          </p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Contact</h5>
+          <p class="mb-0">
+            +63 2 8772 9770 to 26<br>
+            <a href="mailto:info@obmontessori.edu.ph">info@obmontessori.edu.ph</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
